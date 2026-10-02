@@ -5,7 +5,7 @@ import { ArrowRight, Download } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative w-full sm:w-11/12 mx-auto hero-grid flex min-h-screen items-center">
+    <section className="relative w-full sm:w-11/12 mx-auto hero-grid flex min-h-[calc(100vh-5rem)] items-center border-b border-line">
       {/* Background */}
 
       <div className="absolute inset-0 -z-10">
@@ -23,35 +23,33 @@ export default function Hero() {
 
         <div>
           <p className="mb-5  font-semibold tracking-[4px] uppercase">
-            <span className="text-amber-500">Full Stack</span>{" "}
-            <span className="text-fuchsia-500">Web Developer</span>
+            <span className="text-accent">Full-stack</span>{" "}
+            <span className="text-muted">developer & product builder</span>
           </p>
 
           <h1 className="text-5xl font-black leading-tight lg:text-7xl">
             Hi, I&apos;m
             <br />
-            <span className="bg-linear-to-r from-blue-400 via-cyan-300 to-violet-400 bg-clip-text text-transparent">
+            <span className="text-accent">
               MD. Jisan
             </span>
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-8 text-gray-400">
-            I build modern, interactive and high-performance web applications
-            using Tailwind, Daisy UI, React, Next.js, Vide Coding, TypeScript,
-            Prisma and beautiful UI animations.
+            I turn complex ideas into fast, thoughtful digital products — from sharp interfaces to reliable full-stack systems.
           </p>
 
           <div className="mt-10 flex justify-center md:justify-normal  gap-4 md:gap-7">
-            <button className="btn text-white hover:bg-emerald-600 btn-outline rounded-full px-5 md:px-8">
+            <a href="#projects" className="btn btn-primary rounded-full px-5 md:px-8">
               View Projects
               <ArrowRight size={18} />
-            </button>
+            </a>
 
             <a
               href="https://drive.google.com/uc?export=download&id=1E9xv-yRD2zSmh0KVBtjLLVfXcfbOp5t1"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline rounded-full px-5 md:px-8 hover:bg-emerald-600 text-white"
+              className="btn btn-outline rounded-full px-5 md:px-8 text-white"
             >
               Download CV
               <Download size={18} />
@@ -110,7 +108,7 @@ export default function Hero() {
           </div>
 
           <div className="absolute -left-5 bottom-12 rounded-2xl border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-xl">
-            💻 Full Stack Web Developer
+            Full-stack web developer
           </div>
         </div>
       </div>

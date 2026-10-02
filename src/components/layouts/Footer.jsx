@@ -23,14 +23,14 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-white/60">
               <li>
-                <a href="#about" className="hover:text-emerald-400 transition">
+                <a href="#about" className="hover:text-blue-400 transition">
                   About
                 </a>
               </li>
               <li>
                 <a
                   href="#projects"
-                  className="hover:text-emerald-400 transition"
+                  className="hover:text-blue-400 transition"
                 >
                   Projects
                 </a>
@@ -38,7 +38,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#contact"
-                  className="hover:text-emerald-400 transition"
+                  className="hover:text-blue-400 transition"
                 >
                   Contact
                 </a>
@@ -58,7 +58,7 @@ export default function Footer() {
 
             <a
               href="#contact"
-              className="inline-flex items-center px-6 py-2 rounded-full bg-emerald-500 text-black font-medium hover:bg-emerald-400 transition"
+              className="inline-flex cursor-pointer items-center px-6 py-2 rounded-full bg-[#2563eb] text-white font-medium transition hover:bg-[#1d4ed8]"
             >
               Hire Me
             </a>
