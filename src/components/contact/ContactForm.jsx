@@ -80,12 +80,12 @@ export default function ContactForm() {
           placeholder="Your Message..."
           value={form.message}
           onChange={handleChange}
-          className="w-full p-4 rounded-xl bg-[#0B1120] border border-white/10 text-white outline-none focus:border-cyan-400"
+          className="w-full p-4 rounded-xl bg-[#0B1120] border border-white/10 text-white outline-none focus:border-blue-600"
         />
 
         <button
           disabled={loading}
-          className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-purple-500 text-black font-semibold hover:scale-[1.02] transition"
+          className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-linear-to-r from-blue-500 to-purple-500 text-black font-semibold hover:scale-[1.02] transition"
         >
           {loading ? "Sending..." : "Send Message"}
           <FiSend />
@@ -99,7 +99,7 @@ function Input({ ...props }) {
   return (
     <input
       {...props}
-      className="w-full p-4 rounded-xl bg-[#0B1120] border border-white/10 text-white outline-none focus:border-cyan-400"
+      className="w-full p-4 rounded-xl bg-[#0B1120] border border-white/10 text-white outline-none focus:border-blue-600"
     />
   );
 }

@@ -60,7 +60,7 @@ export default function NavLinks({ href, children, onClick }) {
 
       <span
         className={`relative z-10 transition-colors duration-300 ${
-          active ? "text-white" : "text-white/70 hover:text-green-400"
+          active ? "text-white" : "text-white/70 hover:text-blue-800"
         }`}
       >
         {children}
