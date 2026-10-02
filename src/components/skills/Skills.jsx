@@ -63,10 +63,6 @@ export default function Skills() {
 
         <h2 className="mt-4 text-3xl font-black sm:text-4xl lg:mt-5 lg:text-6xl">
           Technologies I
-          <span className="bg-linear-to-r from-cyan-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
-            {" "}
-            Love
-          </span>
         </h2>
 
         <p className="mt-5 text-base leading-7  w-80 md:w-full mx-auto text-gray-400 sm:mt-6 sm:text-lg sm:leading-8">

@@ -49,7 +49,7 @@ export default function Hero() {
               href="https://drive.google.com/uc?export=download&id=1E9xv-yRD2zSmh0KVBtjLLVfXcfbOp5t1"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline rounded-full px-5 md:px-8 hover:bg-emerald-600 text-white"
+              className="btn btn-outline rounded-full px-5 md:px-8 text-white"
             >
               Download CV
               <Download size={18} />
