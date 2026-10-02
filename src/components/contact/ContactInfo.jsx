@@ -15,19 +15,19 @@ export default function ContactInfo() {
 
       {/* Cards */}
       <div className="mt-8 space-y-4">
-        <Link href="mailto:your@email.com" className="contact-card">
+        <Link href="mailto:dev.md.jisan@gmail.com" className="contact-card">
           <FiMail />
           <div>
             <p className="text-gray-400 text-sm">Email</p>
-            <p className="text-white">your@email.com</p>
+            <p className="text-white">dev.md.jisan@gmail.com</p>
           </div>
         </Link>
 
-        <Link href="tel:+8801XXXXXXXXX" className="contact-card">
+        <Link href="tel:+8801332480459" className="contact-card">
           <FiPhone />
           <div>
             <p className="text-gray-400 text-sm">Phone</p>
-            <p className="text-white">+880 1XXXXXXXXX</p>
+            <p className="text-white">+880 1332480549</p>
           </div>
         </Link>
 
@@ -35,7 +35,7 @@ export default function ContactInfo() {
           <FiMapPin />
           <div>
             <p className="text-gray-400 text-sm">Location</p>
-            <p className="text-white">Dhaka, Bangladesh</p>
+            <p className="text-white">Uttara, Dhaka-1230, Bangladesh</p>
           </div>
         </div>
       </div>
@@ -45,9 +45,9 @@ export default function ContactInfo() {
         <p className="text-gray-400 mb-4">Follow Me</p>
 
         <div className="flex gap-3">
-          <Social href="#" icon={<FaGithub />} />
-          <Social href="#" icon={<FaLinkedin />} />
-          <Social href="#" icon={<FaWhatsapp />} />
+          <Social href="https://github.com/SR-JISAN" icon={<FaGithub />} />
+          <Social href="https://www.linkedin.com/in/sr-jisan" icon={<FaLinkedin />} />
+          <Social href="https://wa.me/8801332480549" icon={<FaWhatsapp />} />
         </div>
       </div>
 

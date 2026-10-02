@@ -54,7 +54,6 @@ export default function Navbar() {
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
-    { href: "#services", label: "Services" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -76,7 +75,7 @@ export default function Navbar() {
             href="/"
             className="ml-8 text-2xl font-black tracking-widest text-white"
           >
-            J<span className="text-red-500 italic">I</span>SAN.
+            J<span className="text-blue-600 italic">I</span>SAN.
           </Link>
 
           {/* Desktop Nav */}

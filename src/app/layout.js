@@ -10,7 +10,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "MD. Jisan — Full-Stack Developer",
-  description: "MD. Jisan builds thoughtful, high-performance digital products and web experiences.",
+  description:
+    "MD. Jisan builds thoughtful, high-performance digital products and web experiences.",
 };
 
 export default function RootLayout({ children }) {
