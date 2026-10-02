@@ -85,7 +85,7 @@ export default function ContactForm() {
 
         <button
           disabled={loading}
-          className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-linear-to-r from-blue-500 to-purple-500 text-black font-semibold hover:scale-[1.02] transition"
+          className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 text-black font-semibold hover:scale-[1.02] transition"
         >
           {loading ? "Sending..." : "Send Message"}
           <FiSend />
