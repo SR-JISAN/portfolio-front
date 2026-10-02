@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative py-28 overflow-hidden bg-[#050816] hero-grid"
+      className="relative py-28 overflow-hidden bg-ink hero-grid"
     >
       {/* Glow Background */}
       <div className="absolute top-0 left-0 h-100 w-100 bg-cyan-500/20 blur-[150px]" />

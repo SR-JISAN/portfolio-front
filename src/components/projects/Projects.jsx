@@ -7,7 +7,7 @@ export default async function Projects() {
     .sort((a, b) => a.order - b.order)
     .slice(0, 3);
   return (
-    <section id="projects" className="py-24 hero-grid">
+    <section id="projects" className="py-24 hero-grid border-y border-line">
       <div className="max-w-7xl mx-auto px-5">
         {/* Heading */}
 

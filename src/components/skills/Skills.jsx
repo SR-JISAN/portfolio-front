@@ -46,7 +46,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative tech-grid hero-grid w-64overflow-hidden py-16 sm:py-20 lg:py-10"
+      className="relative tech-grid hero-grid overflow-hidden py-20 sm:py-24 lg:py-28"
     >
       {/* Background */}
       <div className="absolute inset-0 -z-10">
